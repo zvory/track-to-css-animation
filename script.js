@@ -1458,11 +1458,11 @@ const start = () => {
     video.currentTime = 0
     // setTimeout(() => follow.classList.add('follow'), 700)
 
-    setTimeout(start, 18*1000)
+    // setTimeout(start, 18*1000)
 }
 
 video.addEventListener('loadeddata', function() {
-    setTimeout(start, 1000)
+    setTimeout(start, 0)
  }, false);
 
 const createTranslation = (x = 0, y = 0) => ({
