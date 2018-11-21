@@ -64,6 +64,13 @@ body, html {
 
 }
 
+#loading {
+    position: absolute;
+    /* left: 100px;
+    top: 100px; */
+    z-index: 10;
+}
+
 #parrot {
     height: 1vh;
     width: 1vh;
