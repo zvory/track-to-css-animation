@@ -35,7 +35,7 @@ body, html {
 #track {
     position: absolute;
     display: inline-block;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     /* width: 30px; */
     width: 5vh;
     transform-origin: 0 0;
@@ -49,7 +49,7 @@ body, html {
 .track-content {
     /* left: 15vw; */
     position: relative;
-    /* background-color: blue; */
+    /* background-color: lightblue; */
     font-size: 2vh;
     
     white-space: nowrap;
@@ -62,6 +62,11 @@ body, html {
     -webkit-text-stroke-color: black; */
   
 
+}
+
+#parrot {
+    height: 1vh;
+    width: 1vh;
 }
 
 .row {
