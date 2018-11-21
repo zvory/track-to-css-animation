@@ -3,21 +3,36 @@
 <link rel="stylesheet" type="text/css" href="animation.css">
 <link rel="stylesheet" type="text/css" href="style.css">
 
-<video muted loop controls id="myVideo">
-    <source src="cut_sicp.mp4" type="video/mp4">
-</video>
 
-    <div id="follow">
-        <h1 class="follow-content">
-            SICP
-        </h1>
-    </div>    
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<video muted loop id="myVideo">
+    <source src="scaled.mp4" type="video/mp4">
+</video>
 
     <div id="track-container">
         <div id="track">
-            <h1 class="track-content">
-                SICP
-            </h1>
+            <div class="row">
+                <div class="column" id="spacer-column">
+                    <!-- Hello world I am me -->
+                </div>
+                <div class="column">
+                    <h1 class="track-content">
+                        <!-- <input type="text" name="location" id="location"> -->
+                        The time is <span id="time"></span>
+                        <div id="weather"></div>
+                        <button class="js-geolocation" style="display: none;">Use Your Location</button>
+                        
+                    </h1>
+                </div>
+            </div>
+                    
+            
+
         </div>    
     </div>
   
