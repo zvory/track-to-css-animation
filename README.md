@@ -12,7 +12,7 @@ This is not currently packaged for use, I was just racing to a proof-of-concept.
 
 Once per video:
 
-Object tracking in python -> output in some format -> `corners-to-corners.js` -> creates a `trackArr` variable, tuple of [portion of video completed, ...points]
+Object tracking in python -> output in some format -> `corners-to-corners.js` -> creates a `trackArr` variable, tuple of [portion of video completed, x1, y1, ..., x4, y4]
 
 Each time your website runs:
 
