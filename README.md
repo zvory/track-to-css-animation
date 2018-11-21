@@ -1,6 +1,8 @@
 # AR Web interfaces
 [Demo](https://λ.name/track)
 
+![GIF](http://csclub.uwaterloo.ca/~azvorygi/tracking.gif)
+
 Embed web interfaces into a video using object tracking.
 
 This is not currently packaged for use, I was just racing to a proof-of-concept.
