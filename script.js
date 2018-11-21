@@ -2,6 +2,7 @@ const video = document.getElementById('myVideo');
 const track = document.getElementById('track')
 const time = document.getElementById('time')
 const loading = document.getElementById('loading')
+const loc = document.getElementById('loading')
 
 //simpleweather
 /*! simpleWeather v3.1.0 - http://simpleweatherjs.com */
@@ -167,6 +168,8 @@ setInterval(setTime, 10)
 
 // Docs at http://simpleweatherjs.com
 
+
+
 /* Does your browser support geolocation? */
 if ("geolocation" in navigator) {
     $('.js-geolocation').show(); 
@@ -187,7 +190,8 @@ if ("geolocation" in navigator) {
   * Austin WOEID: 2357536
   */
   $(document).ready(function() {
-    loadWeather('Waterloo',''); //@params location, woeid
+
+    loadWeather('New York City',''); //@params location, woeid
   });
   
   function loadWeather(location, woeid) {
